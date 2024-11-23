@@ -2,20 +2,13 @@
 
 A modern, responsive landing page template built with Next.js 14, TailwindCSS, and Firebase Authentication. Features smooth animations, dark mode support, and a complete authentication system.
 
-## 🌟 Features
+## Features
 
-- 🎨 Modern UI with Tailwind CSS
-- 🌓 Dark/Light mode toggle
-- 🔐 Firebase Authentication
-- 📱 Fully responsive design
-- ✨ Smooth page transitions
-- 🎭 Framer Motion animations
-- 🚀 Next.js 14 App Router
-- 🛡️ Protected dashboard routes
-- 🎯 SEO optimized
-- 🔄 Loading states & animations
+- Modern UI with Tailwind CSS
+- Firebase Authentication
+- Fully responsive design
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Next.js 14
 - React 18
@@ -25,7 +18,7 @@ A modern, responsive landing page template built with Next.js 14, TailwindCSS, a
 - NextAuth.js
 - Heroicons
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -67,7 +60,7 @@ yarn dev
 
 5. Open [http://localhost:3000](http://localhost:3000)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -84,7 +77,7 @@ src/
 └── styles/              # Global styles
 ```
 
-## 🔒 Authentication Features
+## Authentication Features
 
 - Email/Password authentication
 - Protected routes
@@ -93,7 +86,7 @@ src/
 - Error handling
 - Redirect handling
 
-## 🎨 Customization
+## Customization
 
 ### Styling
 
@@ -101,14 +94,14 @@ Customize the theme in `tailwind.config.js`:
 
 ```javascript
 module.exports = {
-	theme: {
-		extend: {
-			colors: {
-				primary: {...},
-				secondary: {...}
-			}
-		}
-	}
+    theme: {
+        extend: {
+            colors: {
+                primary: {...},
+                secondary: {...}
+            }
+        }
+    }
 }
 ```
 
@@ -121,7 +114,7 @@ Key components that can be customized:
 - `HeroBanner.js`: Landing page hero section
 - `LoadingScreen.js`: Loading animations
 
-## 🚀 Deployment
+## Deployment
 
 1. Build the project:
 ```bash
@@ -130,12 +123,7 @@ npm run build
 yarn build
 ```
 
-2. Deploy to Vercel:
-```bash
-vercel
-```
-
-## 📝 Environment Variables
+## Environment Variables
 
 Required environment variables:
 
@@ -148,25 +136,9 @@ NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
 NEXT_PUBLIC_FIREBASE_APP_ID=
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
+## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Next.js team for the amazing framework
-- Tailwind CSS for the utility-first CSS framework
-- Firebase for authentication services
-- Framer Motion for smooth animations
 
 ---
 
-Made with ❤️ by Mohammed
+Created by Yincard

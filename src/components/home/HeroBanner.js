@@ -37,7 +37,7 @@ export default function HeroBanner() {
                         transition={{ duration: 0.5 }}
                     >
                         <h1 className="text-5xl font-bold mb-6">
-                            Template Page for Future Websites
+                            Template Website for quick projects
                         </h1>
                         <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
                             NodeJS, ReactJS, NextJS, Firebase

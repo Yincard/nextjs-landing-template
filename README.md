@@ -14,7 +14,6 @@ A modern, responsive landing page template built with Next.js 14, TailwindCSS, a
 - React 18
 - TailwindCSS
 - Firebase
-- Framer Motion
 - NextAuth.js
 - Heroicons
 
